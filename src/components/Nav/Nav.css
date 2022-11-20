@@ -1,0 +1,33 @@
+.navbar {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-box {
+    width: 100%;
+    max-width: 320px;
+    height: 60px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar-box li a {
+    font-size: 20px;
+    border: 1px solid gainsboro;
+    padding: 6px 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 30px;
+    color: gainsboro;
+}
+.navbar-box li a:hover,
+.navbar-box li a:focus {
+    background-color: gainsboro;
+    color: white;
+}

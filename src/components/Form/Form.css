@@ -1,0 +1,57 @@
+.form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.text {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.text h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.text p {
+    font-size: 30px;
+}
+input {
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid gainsboro;
+    background-color: white;
+    padding: 0 30px;
+    outline: none;
+    font-size: 18px;
+}
+textarea {
+    height: 160px;
+    border-radius: 20px;
+   resize: none;
+   border: 1px solid gainsboro; 
+   outline: none;
+   padding: 20px 30px;
+   font-size: 18px;
+
+}
+input:focus,
+textarea:focus {
+    border: 1px solid gray;
+}
+.send {
+    background-color: tomato;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+.send:focus,
+.send:hover {
+    border: 0;
+    background-color: rgb(255, 38, 0);
+
+}
